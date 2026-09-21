@@ -43,7 +43,7 @@
   "homepage": "https://genrelay.ai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/genrelay/genrelay-mcp.git"
+    "url": "git+https://github.com/gaoruitech/genrelay-mcp.git"
   },
   "main": "dist/index.js",
   "devDependencies": {
