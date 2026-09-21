@@ -1,0 +1,53 @@
+{
+  "name": "genrelay-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for GenRelay — generate video and images with Veo 3.1, Grok Imagine, Nano Banana and GPT Image 2 from Claude Desktop, Cursor and other MCP clients",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js",
+    "test": "node test/smoke.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "veo",
+    "veo-3",
+    "grok-imagine",
+    "nano-banana",
+    "video-generation",
+    "image-generation",
+    "text-to-video",
+    "generative-ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.6.5"
+  },
+  "bin": {
+    "genrelay-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://genrelay.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genrelay/genrelay-mcp.git"
+  },
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^7.0.2"
+  }
+}
