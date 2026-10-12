@@ -1,6 +1,8 @@
 # genrelay-mcp
 
-MCP server for [GenRelay](https://genrelay.ai) — generate **video and images** from Claude Desktop, Cursor, or any MCP client.
+[![npm](https://img.shields.io/npm/v/genrelay-mcp)](https://www.npmjs.com/package/genrelay-mcp) [![license](https://img.shields.io/npm/l/genrelay-mcp)](LICENSE)
+
+MCP server for [GenRelay](https://genrelay.ai/?utm_source=github&utm_medium=readme&utm_campaign=genrelay-mcp) — generate **video and images** from Claude Desktop, Cursor, or any MCP client.
 
 One server, several models: **Veo 3.1**, **Grok Imagine**, **Omni Flash**, **Nano Banana Pro/2**, **GPT Image 2**.
 
@@ -36,7 +38,7 @@ Nothing to install — point your MCP client at it with `npx`.
 }
 ```
 
-Get a key at [genrelay.ai](https://genrelay.ai). Restart the client after editing the config.
+Get a key at [genrelay.ai](https://genrelay.ai/?utm_source=github&utm_medium=readme&utm_campaign=genrelay-mcp). Restart the client after editing the config.
 
 ## Tools
 
