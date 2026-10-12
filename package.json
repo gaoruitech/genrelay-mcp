@@ -1,6 +1,6 @@
 {
   "name": "genrelay-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for GenRelay — generate video and images with Veo 3.1, Grok Imagine, Nano Banana and GPT Image 2 from Claude Desktop, Cursor and other MCP clients",
   "scripts": {
     "build": "tsc",
@@ -22,7 +22,7 @@
     "text-to-video",
     "generative-ai"
   ],
-  "author": "",
+  "author": "GenRelay",
   "license": "MIT",
   "type": "module",
   "dependencies": {
@@ -49,5 +49,9 @@
   "devDependencies": {
     "@types/node": "^26.6.2",
     "typescript": "^7.0.2"
+  },
+  "mcpName": "io.github.gaoruitech/genrelay-mcp",
+  "bugs": {
+    "url": "https://github.com/gaoruitech/genrelay-mcp/issues"
   }
 }
