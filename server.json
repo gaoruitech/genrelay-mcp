@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.gaoruitech/genrelay-mcp",
+  "description": "Generate video and images (Veo 3.1, Grok Imagine, Nano Banana, GPT Image 2) via the GenRelay API.",
+  "repository": {
+    "url": "https://github.com/gaoruitech/genrelay-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "genrelay-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "GENRELAY_API_KEY",
+          "description": "Your GenRelay API key (https://genrelay.ai)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
