@@ -109,6 +109,20 @@ npm run build
 node test/smoke.mjs   # boots the server and speaks MCP to it
 ```
 
+## FAQ
+
+**What is genrelay-mcp?** An MCP server that lets Claude Desktop, Cursor and other MCP clients generate video and images through the GenRelay API.
+
+**Which clients work?** Any MCP client that can launch a stdio server with `npx -y genrelay-mcp`, including Claude Desktop and Cursor.
+
+**How do I get an API key?** Sign up at [genrelay.ai](https://genrelay.ai/?utm_source=github&utm_medium=readme&utm_campaign=genrelay-mcp) and create a key in the console. Set it as `GENRELAY_API_KEY`.
+
+**How is it billed?** Prepaid credits in USD, pay as you go. See [Pricing](https://genrelay.ai/pricing?utm_source=github&utm_medium=readme&utm_campaign=genrelay-mcp).
+
+**A video is still running. Do I resubmit?** No. Use `check_job` with the task id. Resubmitting is billed again.
+
+**Where is it listed?** [npm](https://www.npmjs.com/package/genrelay-mcp) and the official MCP Registry as `io.github.gaoruitech/genrelay-mcp`.
+
 ## License
 
 MIT
