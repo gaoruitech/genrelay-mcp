@@ -23,7 +23,7 @@ import { z } from "zod";
 
 import { ApiError, DEFAULT_BASE_URL, GenRelayApi, type Job } from "./api.js";
 
-const VERSION = "0.1.0";
+const VERSION = "0.1.2";
 
 /** Stay under the ~60s client timeout with room for the round trips. */
 const IMAGE_WAIT_MS = 50_000;
