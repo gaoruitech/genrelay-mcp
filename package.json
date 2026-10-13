@@ -1,6 +1,6 @@
 {
   "name": "genrelay-mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MCP server for GenRelay — generate video and images with Veo 3.1, Grok Imagine, Nano Banana and GPT Image 2 from Claude Desktop, Cursor and other MCP clients",
   "scripts": {
     "build": "tsc",
