@@ -6,6 +6,8 @@ MCP server for [GenRelay](https://genrelay.ai/?utm_source=github&utm_medium=read
 
 One server, several models: **Veo 3.1**, **Grok Imagine**, **Omni Flash**, **Nano Banana Pro/2**, **GPT Image 2**.
 
+![Sample outputs](https://raw.githubusercontent.com/gaoruitech/genrelay-examples/main/images/01_fox_rainy_city.jpg)
+
 ## Install
 
 Nothing to install — point your MCP client at it with `npx`.
