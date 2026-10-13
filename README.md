@@ -99,6 +99,7 @@ Tiers: images `1k`/`2k`/`4k`, Veo video `720p`/`1080p`/`4k`. **Pricing is per ti
 ## Also available
 
 - **Python SDK** — [`pip install genrelay`](https://pypi.org/project/genrelay/)
+- **JavaScript/TypeScript SDK** — [`npm install genrelay`](https://www.npmjs.com/package/genrelay)
 - **Chat & image edits** are OpenAI-compatible: point the official `openai` package at `https://genrelay.ai/v1`
 
 ## Development
